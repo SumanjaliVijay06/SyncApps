@@ -11,3 +11,318 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f8fafc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-heading{
+  font-size: 60px;
+}
+
+.main-content{
+  font-size: 18px;
+  gap: 4px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.signup-content {
+  font: 10px;
+  font-family:  "Arial, sans-serif";
+  padding: 0px ;
+  margin-top: 0px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6em;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-content{
+  height: 20px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-label{
+  padding: 1em;
+}
+
+.button {
+  width: 85%;
+  height: 50px;
+  font-size: 18px;
+  background-color: darkgreen;
+  color: #f8fafc;
+  border-radius: 15px;
+  margin: 1em;
+}
+.connect-container{
+  padding: 1em;
+  
+}
+
+
+.connect-button{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 4em;
+  border-radius: 5px;
+  background-color: #f8fafc;
+}
+
+.account {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-size: 16px;
+}
+
+span{
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 96px;
+  background: var(--light-blue-gray-50, #f8fafc);
+  margin: 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    align-items: center;
+    border-bottom-style: none;
+  }
+}
+
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  width: 1440px;
+  height: 96px;
+}
+header{
+  
+    color: green;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px; 
+    margin: 3rem;
+  
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 2rem;
+  margin-bottom: 0px;
+}
+
+
+.nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  height: 70px;
+  color: var(--light-blue-gray-700, #334155);
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #475569;
+}
+
+.signup-button {
+  width: 100px;
+  height: 40px;
+  background-color: #f8fafc;
+  border:darkgreen 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgreen;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.login-button{
+  width: 100px;
+  height: 40px;
+  background-color: darkgreen;
+  border:darkgreen 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#f8fafc;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-heading{
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.submit-feedback{
+  background-color: darkgreen;
+  color: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 1rem;
+  width: 220px;
+  border: none;
+  border-radius: 10px;
+  margin: 2rem;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container{
+  background-color: darkgreen;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.table {
+  width: 100%;
+  color: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.row-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color:darkgoldenrod;
+}
+.row-content{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  margin: auto;
+}
+hr{
+  color:#f8fafc;
+  width: 100%;
+}
+.copy-rights{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8fafc;
+}
+
+.farm-lands {
+  width: 100%;
+  background: linear-gradient(90deg, #50caa8fa, #f8fafc);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.top-container-content {
+  margin-left: 3em;
+}
+
+.image-container {
+ display: flex;
+ align-items: flex-end;
+}
+
+.farm-land-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 70px 0px 0px 60px;
+}
