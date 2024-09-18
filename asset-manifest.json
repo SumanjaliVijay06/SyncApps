@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SyncApps/static/css/main.2bd9b855.css",
+    "main.js": "/SyncApps/static/js/main.210b13f6.js",
+    "static/js/453.4c897d53.chunk.js": "/SyncApps/static/js/453.4c897d53.chunk.js",
+    "static/media/farm_land.jpg": "/SyncApps/static/media/farm_land.c7f3cc3d78453b409923.jpg",
+    "static/media/land_image.jpg": "/SyncApps/static/media/land_image.722dd4b80f8731326a23.jpg",
+    "index.html": "/SyncApps/index.html",
+    "main.2bd9b855.css.map": "/SyncApps/static/css/main.2bd9b855.css.map",
+    "main.210b13f6.js.map": "/SyncApps/static/js/main.210b13f6.js.map",
+    "453.4c897d53.chunk.js.map": "/SyncApps/static/js/453.4c897d53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bd9b855.css",
+    "static/js/main.210b13f6.js"
+  ]
+}
